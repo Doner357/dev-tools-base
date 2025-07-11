@@ -85,4 +85,4 @@ docker run -it --rm doner357/dev-tools-base:latest-noble
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/Doner357/dev-tools-base/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
