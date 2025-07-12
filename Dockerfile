@@ -49,6 +49,9 @@ RUN echo "ubuntu ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/ubuntu-nopasswd
 # Set a default working directory.
 WORKDIR /work
 
+# Change the ownership of the working directory to the non-root user.
+RUN chown -R ubuntu:ubuntu /work
+
 # Switch to the non-root 'ubuntu' user.
 # All subsequent commands in this Dockerfile and the running container will use this user.
 USER ubuntu
