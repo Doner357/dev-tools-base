@@ -40,7 +40,7 @@ This image follows Semantic Versioning (`MAJOR.MINOR.PATCH`) and provides three 
 
 1.  **Immutable Tag (Source of Truth):**
     * **Format:** `[M].[m].[p]-[OS]`
-    * **Example:** `1.0.1-noble`
+    * **Example:** `1.0.2-noble`
 
 2.  **Minor Floating Tag:**
     * **Format:** `[M].[m]-[OS]` (Points to the latest patch in a minor series)
@@ -67,7 +67,7 @@ This image is not typically used directly, but rather as a base in another `Dock
 **Example (`Dockerfile` for a C++ image):**
 ```dockerfile
 # Start from our trusted foundational image
-FROM doner357/dev-tools-base:1.0.1-noble
+FROM doner357/dev-tools-base:1.0.2-noble
 
 # Install C++ specific tools
 RUN sudo apt-get update && \

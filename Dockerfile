@@ -1,5 +1,5 @@
 # Start from a specific, pinned version of Ubuntu for reproducibility.
-FROM ubuntu:noble@sha256:440dcf6a5640b2ae5c77724e68787a906afb8ddee98bf86db94eea8528c2c076
+FROM ubuntu:noble@sha256:9cbed754112939e914291337b5e554b07ad7c392491dba6daf25eef1332a22e8
 
 # Set non-interactive frontend to avoid prompts during apt-get install.
 ARG DEBIAN_FRONTEND=noninteractive
